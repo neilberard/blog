@@ -1,0 +1,49 @@
+h1, h2, h3 {
+	color:#36C;
+	font-weight: normal;
+	letter-spacing: .4em;
+	margin-bottom: 1em;
+	text-transform: lowercase;
+}
+
+
+header {
+	background-color: red;
+}
+
+body {
+	color: red;
+	background-color: #F1F1F1;
+	text-align: center;
+	padding: 1px;
+}
+
+.sidebar-box {
+  padding: 50px 50px 75px 100px;
+	/* background-color: grey; */
+	content: "";
+	background:	linear-gradient(rgba(255, 0,0,1) 75%, rgba(255,0,0,0));
+	color: red;
+	height: 150px;
+/* 	overflow: hidden; */
+	text-overflow: ellipsis;
+/* 	width: 50%; */		
+}
+
+.a {
+  /* white-space: nowrap;   */
+  width: 100px;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+/*   border: 1px solid #000000; */
+}
+
+
+p.read-more {
+	color: red;	
+}
+
+.red {
+	color: red;
+}
